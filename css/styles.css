@@ -799,12 +799,6 @@ img {
 .form-agreement {
     display: block;
     margin-bottom: 24px;
-
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 0.04em;
-    color: #8E8F99;
-
     user-select: none;
 }
 
@@ -822,6 +816,11 @@ img {
 
     transition: border-color 300ms ease, background-color 300ms ease;
     cursor: pointer;
+
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
 }
 
 .checkbox:checked+.form-agreement-checkbox {
