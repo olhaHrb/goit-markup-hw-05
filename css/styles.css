@@ -826,10 +826,10 @@ img {
         transform 300ms cubic-bezier(0.8, 0, 0, 1.8) 150ms;
 }
 
-/*.checkbox:checked+.form-agreement-checkbox>.form-agreement-icon {
+.checkbox:checked+.form-agreement-checkbox>.agreement-checkbox-wrap>.form-agreement-icon {
     opacity: 1;
     transform: scale(1);
-}*/
+}
 
 .form-agreement-link {
     color: #4D5AE5;
